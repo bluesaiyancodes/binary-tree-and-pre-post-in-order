@@ -42,7 +42,7 @@ def main():
     tree.preorder(tree.root)
     
     print("program executed successfully");
-
+    print("exit")
 
 main()
 
