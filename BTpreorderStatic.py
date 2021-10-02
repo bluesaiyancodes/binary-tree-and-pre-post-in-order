@@ -22,6 +22,7 @@ class Tree:
                     node.right=TreeNode(data)
                 else:
                     self.AddNode(node.right,data)
+        print("Added...")
 
 
     def preorder(self,root):
