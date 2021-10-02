@@ -40,7 +40,7 @@ def main():
     tree.AddNode(tree.root,10)
 
     tree.preorder(tree.root)
-    
+    print("click to exit")
     print("program executed successfully");
 
 
