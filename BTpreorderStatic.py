@@ -32,6 +32,7 @@ class Tree:
 
 
 def main():
+    print("halt")
     tree = Tree()
     tree.AddNode(tree.root,40)
     tree.AddNode(tree.root,20)
