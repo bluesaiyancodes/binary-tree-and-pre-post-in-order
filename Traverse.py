@@ -17,3 +17,4 @@ class Traverse:
             self.inorder(root.left)
             print(root.data)
             self.inorder(root.right)
+prinit("HEloo there")
