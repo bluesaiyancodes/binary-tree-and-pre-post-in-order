@@ -41,9 +41,6 @@ def main():
     tree.AddNode(tree.root,10)
 
     tree.preorder(tree.root)
-    
-    print("program executed successfully");
-    print("exit")
 
 main()
 
