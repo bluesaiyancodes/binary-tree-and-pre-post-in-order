@@ -22,6 +22,7 @@ class Tree:
                     node.right=TreeNode(data)
                 else:
                     self.AddNode(node.right,data)
+        print("Added...")
 
 
     def preorder(self,root):
@@ -40,8 +41,6 @@ def main():
     tree.AddNode(tree.root,10)
 
     tree.preorder(tree.root)
-    print("click to exit")
-    print("program executed successfully");
 
 
 main()
